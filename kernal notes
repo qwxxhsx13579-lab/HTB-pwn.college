@@ -1,0 +1,1 @@
+Supervisor Memory Access Protection (SMAP) and Supervisor Memory Execute Protection (SMEP) are two kernel security mechanisms。Syscalls connects Usersp to Kernalsp.
