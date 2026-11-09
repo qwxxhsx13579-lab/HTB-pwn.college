@@ -1,0 +1,5 @@
+ /proc :A window in kernel,not in disk.Reading a file in it asks the kernel a question and gets the answer as text.(/proc/<pid>/xxx)
+fd: When open a file(new process),return a unique >=0 int.
+lsof==("list open files");OFFSET:Where this piece(data) from mem locate in the disk file.(ex:offset=0x1000=start from disk file 4096bytes);
+ASLR=Address Space Layout randomisation.strings: the readable text in a file,library&&syscall:ordinary code running inside your process&&(user to kernel).
+ltrace&&strace:see process communications between libc && kernel.
